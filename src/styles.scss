@@ -1,0 +1,111 @@
+/* You can add global styles to this file, and also import other style files */
+
+.fund-popup .modal-body {
+    border-radius: 19px;
+    padding: 30px;
+}
+
+.fund-popup .modal-header {
+    border: none;
+    padding: 0;
+}
+
+.fund-popup .close {
+    background: #5ab4d8;
+    opacity: 1;
+    padding: 0 !important;
+    margin: 0 !important;
+    position: absolute;
+    right: -15px;
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 53px;
+    color: #fff !important;
+    top: -15px;
+    z-index: 99999999;
+}
+
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tests-video iframe {
+    width: 38em;
+    height: 393px;
+
+}
+
+.tests-video-li iframe {
+    width: 180px;
+    height: 100px;
+}
+
+.vid-overlay {
+    position: absolute;
+    background: #00000033;
+    height: 101px;
+    top: 0;
+    width: 100%;
+}
+
+ul.nav.nav-tabs .verticle-list {
+    height: 480px;
+    overflow: auto;
+}
+
+.tests-video-li iframe {
+    width: 180px;
+    height: 100px;
+}
+
+.fund-popup .close {
+    background: #5ab4d8;
+    opacity: 1;
+    padding: 0 !important;
+    margin: 0 !important;
+    position: absolute;
+    right: -15px;
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 53px;
+    color: #fff !important;
+    top: -15px;
+    z-index: 99999999;
+}
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+
+#video-popup.fund-popup .modal-dialog.modal-lg.modal-dialog-centered {
+    max-width: 885px;
+}
+
+.contact-custom .form-control.is-invalid {
+    border-color: #dc3545 !important;
+}
+
+.slick-track {
+    margin-left: 0 !important;
+    float: left;
+}
+
+ 
+
+.button-field.dasboard-only-bt::-webkit-scrollbar {
+    width: 0px !important;
+    height: 0;
+}

@@ -1,0 +1,232 @@
+<app-header></app-header>
+
+
+<section class="adventure">
+  <div class="container relative_div">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="top_button">
+          <button class="ENTER_APP" (click)="gotoLink('https://app.surfie.pt/')">ENTER APP</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="contact-custom">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7">
+        <div class="contact-left">
+          <p class="visit-top-p"><a href="">Surfie</a> / <span><a href="">SAY HELLO</a></span></p>
+          <p class="visit-p">We value your message and <br> it will be forwarded to the <br> right team.</p>
+          <p class="visit-p1">We are adventure-hunting <br> nomads. We celebrate freedom <br> and we live our dreams.
+          </p>
+          <p class="visit-p12">© 2021 SURFIE E AVENTURA, <br> Marca Registada – PT</p>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="contact-right">
+          <form [formGroup]="formData" (ngSubmit)="submit()">
+
+            <div class="form-group cus-m15">
+              <img class="contact__img" src="assets/images/c_1.png" alt="">
+              <input formControlName="name" id="name" type="text" placeholder="Enter your first and last name"
+                class="form-control" [ngClass]="{ 'is-invalid': submitted && f['name'].errors }">
+              <div *ngIf="f['name'].dirty && f['name'].invalid" class="text-danger">
+                <div *ngIf="f['name'].errors && f['name'].errors['required']">*Name is required.</div>
+              </div>
+            </div>
+
+            <div class="form-group cus-m15">
+              <input formControlName="email" id="email" type="text" placeholder="Enter email address"
+                class="form-control" [ngClass]="{ 'is-invalid': submitted && f['email'].errors }">
+              <div *ngIf="f['email'].dirty && f['email'].invalid" class="text-danger">
+                <div *ngIf="f['email'].errors && f['email'].errors['required']">*Email is required.</div>
+                <div *ngIf="f['email'].errors && f['email'].errors['email']">*Please, enter valid email address.
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group cus-m15">
+              <img class="contact__img" src="assets/images/c_3.png" alt="">
+              <input formControlName="subject" id="subject" type="text" placeholder="Enter your subject"
+                class="form-control" [ngClass]="{ 'is-invalid': submitted && f['subject'].errors }">
+              <div *ngIf="f['subject'].dirty && f['subject'].invalid" class="text-danger">
+                <div *ngIf="f['subject'].errors && f['subject'].errors['required']">*Subject is required.</div>
+              </div>
+            </div>
+
+            <div class="form-group cus-m15">
+              <img class="contact__img" src="assets/images/c_4.png" alt="">
+              <textarea formControlName="message" id="subject" type="text"
+                [ngClass]="{ 'is-invalid': submitted && f['message'].errors }" placeholder="Enter your message"
+                class="form-control">
+                  </textarea>
+              <div *ngIf="f['subject'].dirty && f['subject'].invalid" class="text-danger">
+                <div *ngIf="f['subject'].errors && f['subject'].errors['required']">*Message required.</div>
+              </div>
+            </div>
+
+            <div class="form-group cus-m15" style="margin-bottom: 0;">
+              <button class="nero-bt" [disabled]="loadinTrns">SEND
+                <i class="fa fa-spinner fa-pulse fa-3x fa-fw" style=" font-size: 22px; " *ngIf="loadinTrns"></i>
+              </button>
+            </div>
+          </form>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="map">
+          <img class="mapjpg" src="assets/images/map.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="full_banner_i">
+  <!-- <svg width="0" height="0" display="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <symbol id="shape-offercarousel-background-shape-bottom" viewbox="0 0 1920 81.6">
+          <path fill="#5ab4d8">
+            <animate attributeName="d" dur="5000ms" repeatCount="indefinite" keyTimes="0;.1;.25;.4;.6;.75;1" values="M0,.4v-1H1920V1.2C1732.6,45.2,1394.8,81,963.2,81,441,80.9,121.1,28.5,0,.4Z;
+          M0,.4v-1H1920V1.2C1622.43,15.74,1394.8,81,963.2,81,441,80.9,121.1,28.5,0,.4Z;
+          M0,.4v-1H1920V1.2C1474.91,0,1391.57,28.65,965.43,62.7,430.13,99.09,312.74,69.74,0,.4Z;
+                      M0,.4v-1H1920V1.2c-445.09-1.2-558.84-4.92-1009.74,11C372.61,31.22,312.74,69.74,0,.4Z;
+                      M0,.4v-1H1920V1.2c-104.65,73.23-372.3,80.5-945.17,46.23C425-.7,198.87,5.17,0,.4Z;
+             M0,.4v-1H1920V1.2c-313.61,72.06-502.61,80.5-954.57,61.5C427.92,40.09,340.91,0,0,.4Z;
+                   M0,.4v-1H1920V1.2C1732.6,45.2,1394.8,81,963.2,81,441,80.9,121.1,28.5,0,.4Z" />
+          </path>
+        </symbol>
+      </defs>
+    </svg>
+
+    <svg class="background-shape-bottom" width="1920px" height="81.71px" aria-hidden="true">
+      <use xlink:href="#shape-offercarousel-background-shape-bottom"></use>
+    </svg> -->
+  <img class="bottom-im" src="assets/images/bottom.png" alt="">
+</section>
+
+
+<section class="custom_footer">
+  <section class="custom_footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="custom_footer_1">
+            <p class="custom_footer_p">THIS IS <img class="b_1" src="assets/images/surfie-logo.png"> <span>by</span>
+              <img class="b_2" src="assets/images/bemy.png">
+            </p>
+            <p class="custom_footer_p_1">We are adventure-hunting nomads. We celebrate freedom and we live our dreams.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="custom_footer_1">
+            <p class="custom_footer_p">KEEP THE ADVENTURE GOING</p>
+            <div class="input_flex">
+              <input type="text" name="" placeholder="Your email address">
+              <button class="SEND BT">SEND</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 cus-col">
+          <div class="custom_footer_1">
+            <p class="custom_footer_p">HEADQUARTERS (STAY WITH US)</p>
+            <p class="custom_footer_p_2"> <img class="ft-img" src="assets/images/ft-1.png" alt=""> Av Ilha da Madeira
+              112,
+              Aroeira <br>Portugal. 2820-059</p>
+            <p class="custom_footer_p_2" style="margin-bottom:0;"><img class="ft-img" src="assets/images/ft-2.png"
+                alt="">
+              hello@surfie.pt</p>
+          </div>
+        </div>
+        <div class="col-lg-3 cus-col-1">
+          <div class="custom_footer_1">
+            <p class="custom_footer_p">FOLLOW US</p>
+            <ul class="social_link">
+              <li>
+                <a href="javascript:void(0)">
+                  <svg width="17px" height="16px" viewBox="0 0 17 16" version="1.1"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                    <g id="noun-telegram-4137491">
+                      <path
+                        d="M16.9712 1.18349L13.8751 13.9121C13.7294 14.5116 13.0555 14.8205 12.503 14.5358L8.58722 12.5194L6.73564 15.541C6.23183 16.3646 4.95697 16.0074 4.95697 15.0444L4.95697 11.6775C4.95697 11.4172 5.06619 11.1689 5.25441 10.9872L12.8855 3.72063C12.8794 3.6298 12.7823 3.55113 12.6853 3.61763L3.5791 9.93957L0.519467 8.36514C-0.196815 7.99572 -0.166461 6.9602 0.574076 6.63933L15.6601 0.0813994C16.3825 -0.233542 17.1597 0.414452 16.9714 1.18343L16.9712 1.18349Z"
+                        id="Path" fill="#5AB4D8" stroke="none" />
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  <svg width="22px" height="16px" viewBox="0 0 22 16" version="1.1"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Group">
+                      <path
+                        d="M17.4309 0L4.56912 0C2.04566 0 0 2.10246 0 4.69598L0 11.304C0 13.8975 2.04566 16 4.56912 16L17.4309 16C19.9543 16 22 13.8975 22 11.304L22 4.69598C22 2.10246 19.9543 0 17.4309 0ZM14.3408 8.32153L8.32495 11.2704C8.16465 11.349 7.97949 11.2289 7.97949 11.0463L7.97949 4.96429C7.97949 4.77919 8.16952 4.65922 8.33016 4.74289L14.346 7.87608C14.5249 7.96922 14.5218 8.23285 14.3408 8.32153Z"
+                        id="Shape" fill="#5AB4D8" fill-rule="evenodd" stroke="none" />
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li><a href="javascript:void(0)">
+                  <svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                    <g id="008-twitter">
+                      <path
+                        d="M18.3029 2.30855C18.8245 1.83189 19.2166 1.23569 19.4379 0.570221C19.501 0.380241 19.2865 0.215961 19.1081 0.31768C18.4496 0.693326 17.7403 0.97513 16.9999 1.15536C16.9569 1.16581 16.9126 1.17111 16.8681 1.17111C16.7332 1.17111 16.6021 1.12295 16.499 1.03553C15.7112 0.367766 14.6979 0 13.646 0C13.1908 0 12.7312 0.0682352 12.28 0.20283C10.8819 0.619885 9.80311 1.72905 9.46465 3.0975C9.33768 3.61079 9.3033 4.12455 9.3624 4.62447C9.36917 4.68192 9.34094 4.72201 9.32353 4.74082C9.29296 4.77379 9.24961 4.79269 9.2046 4.79269C9.19958 4.79269 9.19441 4.79245 9.18929 4.79199C6.12889 4.51853 3.36915 3.1005 1.41842 0.799172C1.31895 0.681789 1.12819 0.696186 1.0489 0.826982C0.666902 1.45728 0.465027 2.17818 0.465027 2.91174C0.465027 4.03596 0.934654 5.09541 1.75039 5.86776C1.40735 5.78953 1.07533 5.66633 0.766913 5.50158C0.617701 5.42186 0.434112 5.52433 0.432015 5.68847C0.410657 7.35857 1.42735 8.84464 2.95038 9.51381C2.91971 9.51452 2.88904 9.51484 2.85832 9.51484C2.6169 9.51484 2.37245 9.49243 2.13186 9.4482C1.96383 9.41735 1.82266 9.57065 1.87484 9.72733C2.36919 11.2117 3.69805 12.3058 5.28828 12.5542C3.96848 13.4063 2.43155 13.8557 0.831913 13.8557L0.333223 13.8554C0.179574 13.8554 0.0496227 13.9518 0.0104668 14.0949C-0.028104 14.2359 0.0429423 14.3846 0.173966 14.4579C1.9765 15.4668 4.03256 16 6.12074 16C7.94859 16 9.65838 15.6511 11.2027 14.9632C12.6184 14.3324 13.8694 13.4308 14.921 12.2834C15.9007 11.2145 16.6667 9.98063 17.1978 8.61602C17.7041 7.31523 17.9717 5.92727 17.9717 4.60215L17.9717 4.53902C17.9717 4.32625 18.0717 4.12605 18.2463 3.98976C18.9087 3.47249 19.4856 2.86358 19.9608 2.17996C20.0862 1.99945 19.8884 1.77322 19.6819 1.8613C19.2375 2.05081 18.7763 2.20031 18.3029 2.30855Z"
+                        id="Path" fill="#5AB4D8" stroke="none" />
+                    </g>
+                  </svg>
+                </a></li>
+              <li><a href="javascript:void(0)">
+                  <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                    <g id="029-instagram">
+                      <path
+                        d="M11.2335 0L4.76649 0C2.13823 0 0 2.13823 0 4.76649L0 11.2335C0 13.8618 2.13823 16 4.76649 16L11.2335 16C13.8618 16 16 13.8618 16 11.2335L16 4.76649C16 2.13823 13.8617 0 11.2335 0ZM14.3904 11.2335C14.3904 12.977 12.977 14.3904 11.2335 14.3904L4.76649 14.3904C3.023 14.3904 1.6096 12.977 1.6096 11.2335L1.6096 4.76649C1.6096 3.02297 3.023 1.6096 4.76649 1.6096L11.2335 1.6096C12.977 1.6096 14.3904 3.02297 14.3904 4.76649L14.3904 11.2335L14.3904 11.2335Z"
+                        id="Shape" fill="#5AB4D8" fill-rule="evenodd" stroke="none" />
+                      <path
+                        d="M8 4C5.7944 4 4 5.7944 4 7.99999C4 10.2056 5.7944 12 8 12C10.2056 12 12 10.2056 12 7.99999C12 5.79437 10.2056 4 8 4ZM8 10.4442C6.65013 10.4442 5.55586 9.34989 5.55586 8.00001C5.55586 6.65014 6.65015 5.55586 8 5.55586C9.34987 5.55586 10.4441 6.65014 10.4441 8.00001C10.4441 9.34986 9.34985 10.4442 8 10.4442Z"
+                        id="Shape" fill="#5AB4D8" fill-rule="evenodd" stroke="none" />
+                      <path
+                        d="M12 5C12.5523 5 13 4.55228 13 4C13 3.44772 12.5523 3 12 3C11.4477 3 11 3.44772 11 4C11 4.55228 11.4477 5 12 5Z"
+                        id="Oval" fill="#FFFFFF" stroke="none" />
+                    </g>
+                  </svg>
+                </a></li>
+              <li><a href="javascript:void(0)">
+                  <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                    <g id="036-facebook">
+                      <path
+                        d="M13.8439 0L2.15605 0C0.965319 0 0 0.965273 0 2.15603L0 13.8439C0 15.0346 0.96528 15.9999 2.15605 15.9999L7.92045 15.9999L7.93027 10.2824L6.44485 10.2824C6.25181 10.2824 6.09514 10.1263 6.09439 9.93329L6.08727 8.0903C6.08652 7.8962 6.24367 7.73847 6.43777 7.73847L7.92049 7.73847L7.92049 5.95767C7.92049 3.89107 9.18265 2.7658 11.0262 2.7658L12.539 2.7658C12.7325 2.7658 12.8895 2.92271 12.8895 3.1163L12.8895 4.67031C12.8895 4.86382 12.7326 5.0207 12.5392 5.02081L11.6108 5.02124C10.6082 5.02124 10.4141 5.49766 10.4141 6.19682L10.4141 7.7385L12.6171 7.7385C12.827 7.7385 12.9899 7.9218 12.9651 8.13026L12.7467 9.97325C12.7258 10.1496 12.5762 10.2825 12.3987 10.2825L10.4239 10.2825L10.4141 16L13.844 16C15.0347 16 16 15.0347 16 13.844L16 2.15603C16 0.965273 15.0347 0 13.8439 0Z"
+                        id="Path" fill="#5AB4D8" stroke="none" />
+                    </g>
+                  </svg>
+                </a></li>
+            </ul>
+            <div class="link-botom">
+              <a class="ft__p" href="https://app.surfie.pt/legal" target="_blank">Legal Conditions</a>
+              <a class="ft__p" [routerLink]="['/friends']">Friends & Partners</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="copy_right">
+            <p class="copy__p">© 2021 SURFIE E AVENTURA, <br> Marca Registada – PT</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

@@ -1,0 +1,611 @@
+@media(min-width: 1400px) {
+  .container {
+    max-width: 1275px;
+  }
+
+  .stater-1 {
+    max-width: 300px;
+    margin-top: -80px;
+  }
+
+  .stater-2 {
+    max-width: 470px;
+    margin-left: auto;
+    margin-top: -150px;
+  }
+
+  .start-2 {
+    width: 100%;
+    max-width: 470px;
+  }
+}
+
+@media(max-width: 1399px) {
+  .left-became {
+    padding: 70px 40px 2px 40px;
+}
+  p.up_app-p-1 {
+    font-size: 26px;
+}
+
+  /* .custom_footer_p {
+    font-size: 16px;
+  } */
+  .BT:hover {
+    -webkit-transform: scale(1.03s);
+    transform: scale(1.03);
+  }
+
+  .visit-p {
+    font-size: 29px;
+  }
+}
+
+@media(max-width: 1024px) {
+  p.letter-sps {
+    font-size: 12px;
+}
+  p.became__1 {
+    font-size: 30px;
+    margin: 0 0 10px 0;
+}
+  p.became__2 {
+    line-height: 18px;
+    font-size: 16px;
+}
+  .became-a-host p.visit-top-p {
+    font-size: 30px;
+    margin: 20px 0 20px 0;
+}
+.left-became {
+  padding: 80px 0px 30px 30px;
+}
+  .surfie_header .nav-link {
+    font-size: 10px;
+}
+  p.full_app_p {
+    font-size: 28px;
+}
+.full_app_right {
+  min-height: 475px;
+}
+  .stater-2 {
+    margin-top: 20px;
+  }
+
+  .adventure_h1 br {
+    display: none;
+  }
+
+  .adventure_h1 {
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .adventure_ul li p {
+    font-size: 22px;
+    line-height: 24.4px;
+  }
+
+  .MEET_US_ul li {
+    margin: 0 0 15px 0;
+  }
+
+  .MEET_US_ul {
+    flex-wrap: wrap;
+  }
+
+  .MEET_US_ul {
+    margin: 0 0 15px 0;
+  }
+
+  .custom_footer_p {
+    font-size: 14px;
+  }
+
+  .custom_footer_p_2 br {
+    display: none;
+  }
+
+  .BT:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+  .container {
+    max-width: 970px;
+  }
+
+  .custom_footer_1 {
+    padding: 0 0px !important;
+  }
+
+  .copy_right {
+    padding: 0 0px !important;
+  }
+}
+
+
+@media(max-width: 991px) {
+  p.became__2 {
+    font-size: 22px;
+    line-height: 30px;
+}
+  .custom_form-all-left {
+    padding-right: 0;
+    margin: 0 0 30px 0;
+}
+  .p-r-0{
+    padding-right: 15px;
+  }
+  .p-l-0{
+    padding-left: 15px;
+  }
+  .became__full__p {
+    margin: 0px 0 15px 0;
+}
+  img.img-fluid.left_became___img {
+    margin-bottom: 30px;
+}
+  .padd-b-l {
+    padding-left: 0;
+}
+  .padd-b-r {
+    padding-right: 0px;
+}
+  .became__full__common {
+    padding: 30px 0px 0px 0;
+}
+  .left-became {
+    padding: 80px 0px 30px 0px;
+}
+.became-a-host .col-lg-6.p-r-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+  .surfie_header .nav-link {
+    font-size: 14px;
+}
+  .full_app_left {
+    margin: 0 0 30px 0;
+}
+  .slider_app .col-lg-3 {
+    width: 100%;
+  }
+  .slider_app .col-lg-2 {
+    display: none;
+  }
+  .hub-img {
+    min-height: auto;
+}
+
+  .stater-1 p.outside {
+    margin-right: 0px;
+  }
+
+  .stater-1 {
+    margin-top: 30px;
+  }
+
+  .visit-left {
+    padding-right: 0px;
+  }
+
+  img.road-line-im {
+    display: none;
+  }
+
+  .road-custom {
+    margin: 0 0 30px 0;
+  }
+
+  .row.seced-line {
+    margin-top: 0px;
+  }
+
+  .row.first-line {
+    margin-bottom: 0px;
+  }
+
+  .custom_footer .container .row .col-lg-3:nth-child(1) .custom_footer_1 {
+    padding-right: 0px;
+  }
+
+  body {
+    padding-top: 58px;
+  }
+
+  .Crew_left {
+    margin-top: 0px;
+  }
+
+  .custom_footer_1 {
+    padding: 0 0px !important;
+  }
+
+  .custom_footer .container .row .col-lg-3:nth-child(2) .custom_footer_1 {
+    padding-right: 0;
+  }
+
+  .custom_footer .container .row .col-lg-3:nth-child(3) .custom_footer_1 {
+    padding-left: 0px;
+  }
+
+  .col-lg-3.cus-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .col-lg-3.cus-col-1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .Crew_img.img-fluid {
+    max-height: fit-content;
+    width: 100%;
+  }
+
+  .crew_p_1 {
+    max-width: 100%;
+  }
+
+  .Crew_right p.crew_p {
+    text-align: left;
+  }
+
+  .Crew_right p.crew_p_1 {
+    text-align: left;
+  }
+
+  .Crew_right button.crew_bt {
+    margin-left: 0;
+  }
+
+  .Crew_left {
+    margin: 0 0 30px 0;
+  }
+
+  .input_flex {
+    max-width: 400px;
+    margin: 0 0 30px 0;
+  }
+
+  .custom_footer_p {
+    font-size: 18px;
+  }
+
+  .custom_footer_1 {
+    margin: 0 0 30px 0;
+  }
+
+  #navbarSupportedContent {
+    position: absolute;
+    left: 0;
+    top: 56px;
+    background: #f0fbff;
+    z-index: 99;
+    padding: 30px;
+    max-width: 100%;
+    right: 0;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    margin: 0 0 15px 0;
+  }
+
+  .surfie_header .navbar-nav.me-auto.mb-2.mb-lg-0 {
+    max-width: 330px;
+    margin: auto !important;
+    display: block !important;
+  }
+
+  .surfie_header form.d-flex {
+    justify-content: center;
+  }
+
+  .navbar-toggler {
+    background: transparent;
+    padding: 0;
+    border: none;
+  }
+
+  .navbar-toggler img {
+    max-width: 40px;
+  }
+
+  .navbar-toggler:hover {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .surfie_header .navbar.navbar-expand-lg.navbar-light.bg-light {
+    min-height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 99;
+  }
+
+  .copy__p {
+    margin: 0px 0 0 0;
+  }
+
+  .visit-p br {
+    display: none;
+  }
+
+  .visit-p1 br {
+    display: none;
+  }
+
+  .contact-custom {
+    padding: 60px 0 0 0;
+  }
+
+  .hub-right p.visit-p {
+    text-align: left;
+  }
+
+  .hub-right {
+    padding-left: 0px;
+  }
+
+  .visit-p12 {
+    margin: 0 0 30px 0;
+  }
+  .right__pods {
+    padding: 0 0px 0 0px;
+}
+}
+
+
+@media(max-width: 767px) {
+  .hub.visit__surfi .center-how {
+    margin: 0 0 30px 0;
+}
+  p.letter-sps {
+    bottom: 10px;
+    left: 10px;
+}
+  p.letter-sps span {
+    display: inline-block;
+    margin-right: 10px;
+}
+  .contact-custom {
+    padding: 30px 0 0 0;
+}
+  .border__s {
+    padding: 20px 15px;
+    margin-bottom: 40px;
+}
+  .VIEW-ul li:last-child {
+    margin-right: 0;
+}
+  button.MORE_INFO_button.BT,button.D_VIEW.BT {
+    width: auto;
+    padding: 0 15px;
+}
+  .VIEW-ul li {
+    margin: 0px 30px 0 0px;
+}
+  p.right__pods__p__1 {
+    margin: 20px 0 5px 0;
+}
+  .common_pod_section {
+    padding: 20px 20px;
+}
+  .flex_button_app button.book_APP.BT:nth-child(1) {
+    margin-right: 0px;
+    margin-bottom: 15px;
+}
+.flex_button_app {
+  display: block;
+  padding-right: 0px;
+}
+  .center-how {
+    padding: 20px 20px;
+}
+  .social_link {
+    right: 0px;
+  }
+
+  .social_link li a {
+    margin: 0 5px 0 5px;
+  }
+
+  p.road-custom-p {
+    margin: 15px 0 5px 0;
+  }
+
+  p.partners_p_thanks {
+    font-size: 20px;
+    padding: 0 0 0px 0;
+  }
+
+  .road-map {
+    padding: 60px 0;
+  }
+
+  p.road-custom-p1 {
+    margin: 0 0 5px 0;
+  }
+
+  p.out-plan-p1 {
+    margin: 0 0 40px 0;
+  }
+
+  p.out-plan-p {
+    margin: 0 0 10px 0;
+  }
+
+  .MEET_US_content {
+    padding: 30px 15px 30px 15px;
+  }
+
+
+
+  .DRONE-content h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .DRONE-content {
+    min-height: 310px;
+    padding: 0 15px;
+  }
+
+  .partners_p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .visit-p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .crew_p_2 br {
+    display: none;
+  }
+
+  .adventure_ul li p,
+  .MEET_US_ul li p {
+    font-size: 16px;
+    line-height: 18.4px;
+  }
+
+  .full_banner_h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .adventure_h1 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 0 15px 0;
+  }
+
+  .adventure_ul {
+    margin: 0 0 25px 0;
+  }
+
+  .adventure_right {
+    margin: 30px 0 0 0;
+    min-height: 340px;
+  }
+
+  .full_banner_left {
+    min-height: 340px;
+  }
+
+  .full_banner_h1 br {
+    display: none;
+  }
+
+  .MEET_US_p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .crew_p,
+  .crew_p_1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .MEET_US_p br {
+    display: none;
+  }
+
+  .MEET_US_sec {
+    padding: 59px 0 0px 0;
+  }
+
+  .full_banner_i {
+    padding: 0px 0 0px 0;
+  }
+
+  .custom_footer {
+    padding: 60px 0 60px 0;
+  }
+
+  .visit {
+    padding: 0px 0 30px 0;
+  }
+
+  .visit-p1 {
+    margin: 0 0 15px 0;
+  }
+
+  .stater-2,
+  .stater-1 {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+
+  .start-2,
+  .start-1 {
+    max-width: 100%;
+  }
+
+  .map {
+    margin: 30px 0 0 0;
+  }
+
+  .crew_p_2 {
+    font-size: 14px;
+  }
+
+  .custom_footer_p_1 {
+    font-size: 14px;
+  }
+
+  .custom_footer_p_2 {
+    font-size: 14px;
+  }
+
+  .custom_footer_p {
+    font-size: 16px;
+    margin: 0 0 12px 0;
+  }
+
+  .input_flex input[type="text"] {
+    font-size: 14px;
+  }
+
+  .visit-p1 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .contact-custom .form-control {
+    font-size: 14px;
+  }
+
+  .visit-top-p {
+    font-size: 16px;
+  }
+
+  p.patners_p {
+    word-break: break-all;
+    font-size: 14px;
+    line-height: 22px
+  }
+
+  .visit-img-p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .outside {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .drone-p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
